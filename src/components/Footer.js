@@ -1,6 +1,7 @@
 import "./FooterStyles.css"
 import React from 'react'
 import { FaGithub, FaHome, FaInstagram, FaLinkedinIn, FaMailBulk, FaPhone } from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -25,11 +26,17 @@ const Footer = () => {
                 </div>
                 <div className="right">
                     <h4>About me</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis autem beatae temporibus perferendis voluptas sint ipsa nisi amet nobis dolorem.</p>
+                    <p>Hello there! I'm Shreyas Chitransh, a passionate and dedicated full stack developer. With a strong penchant for turning innovative ideas into functional and user-friendly applications, I thrive in the world where creativity meets technology.</p>
                     <div className="social">
-                        <FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <NavLink to="https://www.linkedin.com/in/shreyas-chitransh-85a230226/">
+                            <FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </NavLink>
+                        <NavLink to="https://www.instagram.com/shreeeyyyyyy/?next=%2F">
+                            <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </NavLink>
+                        <NavLink to="https://github.com/Shreychit">
+                            <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        </NavLink>
                     </div>
                 </div>
             </div>

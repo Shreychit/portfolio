@@ -1,0 +1,52 @@
+.certification-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.certification-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.certification-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+
+.certification-card img {
+    width: 100%;
+}
+
+.certification-title {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.certi-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.certi-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.certi-btn .btn {
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .certification-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

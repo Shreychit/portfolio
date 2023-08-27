@@ -2,16 +2,18 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from "../components/Footer"
 import Heroimg2 from '../components/Heroimg2'
-import Form from "../components/form"
-const Contact = () => {
+import CertificationPage from "../components/CertificationPage"
+
+
+const Certification = () => {
     return (
         <div>
             <Navbar />
-            <Heroimg2 heading="CONTACT." text="Let's have a chat." />
-            <Form />
+            <Heroimg2 heading="CERTIFICATION." text="The Certifications that I have done" />
+            <CertificationPage />
             <Footer />
         </div>
     )
 }
 
-export default Contact
+export default Certification
