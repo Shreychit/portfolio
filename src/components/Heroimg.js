@@ -1,7 +1,7 @@
 import "./HeroimgStyles.css"
 import React from 'react'
 import IntroImg from "../assets/intro-bg.jpg"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 const Heroimg = () => {
     return (
@@ -14,7 +14,8 @@ const Heroimg = () => {
                 <h1>Full Stack Developer.</h1>
                 <div>
                     <Link to="/project" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn btn-light">Contact</Link>
+                    {/* <Link to="/contact" className="btn btn-light">Contact</Link> */}
+                    <NavLink to="https://drive.google.com/file/d/1CQKz9-CnXMq2Az6MDoi52nv6UggXc_br/view?usp=drive_link" className="btn btn-light">Resume</NavLink>
                 </div>
             </div>
         </div>
