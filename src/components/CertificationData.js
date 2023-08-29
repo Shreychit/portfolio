@@ -4,11 +4,11 @@ const CertificationData = [
         certification: "https://drive.google.com/file/d/1lcFwAZn409utKderVo2IKlFTRdNPVp6G/view?usp=drive_link"
     },
     {
-        title: "Smartinternz Externship Program-Applied Data Science",
+        title: "Smartinternz Externship Program Powered by Google Developers",
         certification: "https://smartinternz.com/internships/google_developers/34c6cfd9d8e84a6a0cd9aad3434679cf"
     },
     {
-        title: "The Complete Web Development Bootcamp",
+        title: "The Complete Web Development Bootcamp-Angela Yu",
         certification: "https://drive.google.com/file/d/1-iQXfTUmSfN6EIva4dPlyljjDSjq1y_W/view?usp=drive_link"
     },
     {
