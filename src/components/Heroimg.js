@@ -15,7 +15,7 @@ const Heroimg = () => {
                 <div>
                     <Link to="/project" className="btn">Projects</Link>
                     {/* <Link to="/contact" className="btn btn-light">Contact</Link> */}
-                    <NavLink to="https://drive.google.com/file/d/1CQKz9-CnXMq2Az6MDoi52nv6UggXc_br/view?usp=drive_link" className="btn btn-light">Resume</NavLink>
+                    <NavLink to="https://drive.google.com/file/d/1J6qC8An3AqEUeKQXgp45AZhxR7NKj7oT/view?usp=sharing" className="btn btn-light">Resume</NavLink>
                 </div>
             </div>
         </div>
